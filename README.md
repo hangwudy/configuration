@@ -23,3 +23,5 @@
 
 `conda config --set show_channel_urls yes`
 
+## pip修改默认源
+`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
