@@ -29,3 +29,6 @@
 
 ## conda 克隆环境
 `conda create -n BBB(new env) --clone AAA(target)`
+
+## pip修改默认源
+`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
