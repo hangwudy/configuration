@@ -23,3 +23,9 @@
 
 `conda config --set show_channel_urls yes`
 
+
+## conda 查看环境信息：
+`conda env list`
+
+## conda 克隆环境
+`conda create -n BBB(new env) --clone AAA(target)`
