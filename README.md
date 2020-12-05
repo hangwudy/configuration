@@ -23,6 +23,9 @@
 
 `conda config --set show_channel_urls yes`
 
+## pip修改默认源
+`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+
 
 ## conda 查看环境信息：
 `conda env list`
@@ -30,5 +33,9 @@
 ## conda 克隆环境
 `conda create -n BBB(new env) --clone AAA(target)`
 
-## pip修改默认源
-`pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple`
+## conda remove env
+`conda env remove -n {ENV_NAME}`
+
+## conda check available packages
+`conda search {PACKAGE_NAME}`
+
